@@ -24,14 +24,75 @@
     </script>
     <!-- daisyui setup -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-   <script src="https://cdn.tailwindcss.com"></script>
-   <style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
     .manrope-font{
         font-family: "Manrope", sans-serif;
     }
-   </style>
+    </style>
 </head>
-<body>
-    
+<body class="manrope-font">
+   <header class="md:max-w-6xl mx-auto">
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a class="text-[#212121] font-bold">Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-3xl text-[#212121] font-bold"><i class="fa-solid fa-arrow-right text-black border-x-2 rounded-xl"></i> Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-[#212121] font-bold">Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class=" flex navbar-end">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-cart-shopping"></i>
+          <button class="btn bg-[#ABEF5F] rounded-3xl py-3 px-5 font-bold text-base text-black">Book Consult <i class="fa-solid fa-arrow-right text-black"></i></button>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <img class="mx-auto mb-6" src="assets/banner.png" alt="">
+      <div class="text-center space-y-7">
+        <h1 class="font-extrabold text-[#212121] text-6xl">A barn house of this design has a striking appearance</h1>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <button class="btn bg-lime-100 rounded-3xl py-3 px-8 font-bold text-base text-black">View Details <i class="fa-solid fa-arrow-right text-black"></i></button>
+      </div>
+    </div>
+   </header>
+   <main class="md:max-w-6xl mx-auto">
+
+   </main>
+   <footer>
+
+   </footer>
 </body>
 </html>
